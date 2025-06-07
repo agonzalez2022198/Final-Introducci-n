@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
     --padding-container: 100px 0;
@@ -953,4 +953,35 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+.quienes__contenido {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.quienes__texto {
+    flex: 1 1 300px;
+}
+
+.quienes__imagen {
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.quienes__img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.quienes__caption {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #444;
 }
